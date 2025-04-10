@@ -47,7 +47,7 @@ adb_path = ""
 instruction = ""
 
 # Your GPT-4o API URL
-API_url = ""
+API_url = "https://openrouter.ai/api/v1"
 
 # Your GPT-4o API Token
 token = os.getenv("OPEN_ROUTER_API_KEY")
