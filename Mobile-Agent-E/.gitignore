@@ -4,6 +4,7 @@ __pycache__/
 # custom
 **/screenshot/*
 **/temp/*
+usage_tracking.jsonl
 
 .env
 *openai_key*

@@ -79,7 +79,7 @@ elif BACKBONE_TYPE == "Claude":
     KNOWLEDGE_REFLECTION_MODEL = "claude-3-5-sonnet-20241022"
 
 ## you can specify a jsonl file path for tracking API usage
-USAGE_TRACKING_JSONL = None  # e.g., usage_tracking.jsonl
+USAGE_TRACKING_JSONL = "usage_tracking.jsonl"  # e.g., usage_tracking.jsonl
 
 ## Perceptor configs
 # Choose between "api" and "local". api: use the qwen api. local: use the local qwen checkpoint
@@ -87,8 +87,8 @@ CAPTION_CALL_METHOD = "api"
 # Choose between "qwen-vl-plus" and "qwen-vl-max" if use api method. Choose between "qwen-vl-chat" and "qwen-vl-chat-int4" if use local method.
 CAPTION_MODEL = "qwen-vl-plus"
 
-QWEN_API_URL = "https://openrouter.ai/api/v1/chat/completions"
-QWEN_API_KEY = os.environ.get("OPEN_ROUTER_API_KEY", default=None)
+QWEN_API_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
+QWEN_API_KEY = os.environ.get("QWEN_API_KEY", default=None)
 
 
 ## Initial Tips provided by user; You can add additional custom tips ###
