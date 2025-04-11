@@ -17,3 +17,4 @@ datasets
 modelscope
 matplotlib
 dashscope
+python-dotenv

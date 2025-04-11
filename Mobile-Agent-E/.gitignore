@@ -5,6 +5,7 @@ __pycache__/
 **/screenshot/*
 **/temp/*
 
+.env
 *openai_key*
 *qwen_key*
 *api_key*
